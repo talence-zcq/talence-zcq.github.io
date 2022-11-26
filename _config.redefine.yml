@@ -228,3 +228,11 @@ footer:
 # Redefine Theme version (Please don't modify)
 # ---------------------------------------------------------------------------------------
 version: 0.3.3
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: git@github.com:talence-zcq/talence-zcq.github.io.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: [main]
+  message: [update]
