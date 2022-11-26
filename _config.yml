@@ -104,5 +104,4 @@ theme: redefine
 deploy:
   type: git
   repo: git@github.com:talence-zcq/talence-zcq.github.io.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: [main]
-  message: [update]
+  branch: main
