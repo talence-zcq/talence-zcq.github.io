@@ -2,7 +2,7 @@
 title: 论文笔记<一>  DISCRETE GRAPH STRUCTURE LEARNING FOR FORECASTING MULTIPLE TIME SERIES
 date: 2022-11-27 15:20:38
 tags: 时空数据预测
-categories: 时空数据预测
+categories: 研0
 mathjax: true
 ---
 
