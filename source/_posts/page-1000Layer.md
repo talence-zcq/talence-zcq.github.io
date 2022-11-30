@@ -44,6 +44,7 @@ $$
 <br/>
 
  ### 分组可逆卷积
+作者把X拆分成了C份。
 $$
 X_0' = \sum_{i=2}^{C}X_i
 $$
@@ -62,6 +63,14 @@ $$
 
 $$
 X_1 = X_1'-f_{w1}(X_0',A,U)
+$$
+
+$$
+\hat{X} =Dropout(ReLU(Norm(X_{i-1}')))
+$$
+
+$$
+\widetilde{X} = GraphConv(\hat{X}_i,A,U)
 $$
  ### 权重共享
 代码讲解
