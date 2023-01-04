@@ -14,10 +14,11 @@ a_{ij} = softmax(LeakyReLU(a^{-T}[W\vec h_i || W \vec h_j]))
 $$
 
 ### 多头注意力
-本文中实现的多头注意力公式如下：
+本文中实现的多头注意力公式如下
 $$
-\vec h_i' =||_{k=1}^K \sigma(\sum_{j\in N_i}a_{ij}^kW^k\vec h^i)h_i'
+\vec h_i' = ||_{k=1}^K \sigma( {\sum} _{j\in N_i}a _ {ij} ^k W^k \vec h^i)h_i'
 $$
+
 # 源代码讲解
 ### GAT网络各参数定义
 ``` python

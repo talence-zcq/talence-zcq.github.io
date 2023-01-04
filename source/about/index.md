@@ -13,6 +13,9 @@ date: 2022-11-26 10:27:12
 
 **研究方向**：图神经网络，大数据开发应用
 
+**技术栈**：python、java、mysql、redis、springboot、requests模块
+
+
 **一些兴趣爱好**：客制化键盘
 
 ![好看的键盘](https://zcq-hexo.oss-cn-hangzhou.aliyuncs.com/img/keyboard.png)
